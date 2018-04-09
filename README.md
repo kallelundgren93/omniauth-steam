@@ -7,7 +7,7 @@ This gem is an OmniAuth 1.0 strategy, supporting the Steam OpenID provider.
 Add to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-steam'
+gem 'omniauth-steam', git: 'https://github.com/kallelundgren93/omniauth-steam.git'
 ```
 
 And then integrate the strategy into your middleware:
